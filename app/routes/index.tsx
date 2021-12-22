@@ -32,7 +32,7 @@ export default function Index() {
         <Link className="font-extrabold text-lg" to="/">
           V2EX
         </Link>
-        <span className="mx-1">/</span>
+        <span className="mx-2">/</span>
         <p>节点导航</p>
       </div>
       {groups.map((group) => renderGroup(group))}

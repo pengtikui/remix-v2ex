@@ -16,7 +16,7 @@ export default function Index() {
         <ul className="flex flex-wrap text-gray-900 -mr-2">
           {group.nodes.map((node) => (
             <li key={node.name} className="mr-4 mb-2">
-              <Link className="hover:underline" to={`/node/${node.name}`}>
+              <Link className="hover:underline" to={`/nodes/${node.name}`}>
                 {node.title}
               </Link>
             </li>
